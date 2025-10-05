@@ -1,0 +1,29 @@
+<!-- Stock Details Modal -->
+<div class="modal fade" id="stockModal" tabindex="-1" aria-labelledby="stockModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="stockModalLabel">Stock Details</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body d-flex">
+        <div class="me-3">
+          <img id="modalImage" src="" alt="Stock Image" style="max-width:200px; max-height:200px; object-fit:contain;">
+        </div>
+        <div>
+          <p><strong>Name:</strong> <span id="modalName"></span></p>
+          <p><strong>Type:</strong> <span id="modalType"></span></p>
+          <p><strong>Number:</strong> <span id="modalNumber"></span></p>
+          <p><strong>Livery:</strong> <span id="modalLivery"></span></p>
+          <p><strong>Manufacturer:</strong> <span id="modalManufacturer"></span></p>
+          <p><strong>Scale:</strong> <span id="modalScale"></span></p>
+          <p><strong>Era:</strong> <span id="modalEra"></span></p>
+          <p><strong>Notes:</strong> <span id="modalNotes"></span></p>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
